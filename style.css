@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.navbar a {
+    text-decoration: none;
+    color: blue;
+}
+.lists{
+    list-style-type: none;
+    display: flex; 
+    gap: 20px;  
+}
+.lists a{
+    text-decoration: none;
+    color: gray;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-content{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.card-content a {
+    text-decoration: none;
+    color: blue;
+}
+.card-content p {
+    margin-top: 25px;
+    color: gray;
+}
+.card-image{
+    margin-right: 50px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    gap: 50px;
+}
+input {
+    margin-top: 30px;
+}
+
+#btn1{
+    height: 40px;
+    width: 150px;
+    margin-right: 5px;
+    background-color: rgb(67, 67, 255);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(107, 107, 107);
+}
+
+#btn2{
+    height: 40px;
+    width: 140px;
+    margin-left: 5px;
+    background-color: rgb(201, 201, 253);
+    color: blue;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 201, 253);
+   
+}
